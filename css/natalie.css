@@ -1,0 +1,151 @@
+/* Natalie Maestas CSS */
+
+
+/* --------------------- HEADER ---------------------------------- */
+header {
+	height: 150px; 
+	width: 100%;
+	color: #63707e;
+	background: #93b5b3;
+	text-align: center;
+	text-decoration: none;
+	display: table;
+}
+
+header h1 {
+    font-size: 500%;
+    font-family: 'Sacramento', cursive;
+    margin-top: 25px;
+}
+
+header h1 a {
+	text-decoration: none;
+}
+
+header h1 a:link, header h1 a:visited {
+	color: #f2e9d0;
+}
+
+header h2 {
+    font-size: 150%;
+    font-family: 'Crushed', cursive;
+    letter-spacing: 10px;
+}
+
+/* --------------------- NAVIGATION ------------------------------ */
+nav {
+	width: 100%;
+	float: left;
+	border-top: solid 2px #f2e9d0;
+    border-bottom: solid 2px #f2e9d0;
+    font-family: 'Crushed', cursive;
+	letter-spacing: 5px;
+	}
+
+nav a {
+	display: block;
+	height: 50px;
+	width: 25%;
+	float: left;
+	text-align: center;
+	background: #c8dad3;
+	color: #63707e;
+	text-decoration: none;
+	line-height: 50px;
+	}
+
+nav a:hover {
+	background: #93b5b3;
+}
+
+nav #current {
+	background: #f2e9d0;
+	color: #93b5b3;
+}
+
+/* ---------------------- MAIN ----------------------------------- */
+
+main{
+	margin-top: 54px;
+}
+
+#intro {
+	text-align: center;
+}
+
+#nataliepic {
+	border: solid 2px #eaceb4;
+	width: 20%;
+	display: inline-block;
+	margin: 5% 10%;
+}
+
+#meetnatalie {
+	display: inline-block;
+	vertical-align: top;
+	width: 40%;
+	margin: 5% 5%;
+	text-align: center;
+	color: #63707e;
+
+}
+
+#meetnatalie h1 {
+	font-family: 'Sacramento', cursive;
+	font-size: 300%;
+	margin-top: 10%;
+}
+
+#meetnatalie p {
+	font-family: 'Montserrat', sans-serif;
+	line-height: 1.5;
+	margin-top: 2%;
+}
+
+#homepicdiv {
+	text-align: center;
+}
+
+.homepics {
+	width: 25%;
+	padding: 30px;
+	height: 207px;
+}
+
+/*-------------------------FOOTER--------------------------------- */
+footer {
+	width: 100%;
+	clear: both;
+	background-color: #93b5b3;
+	font-family: 'Montserrat', sans-serif;
+	color: #63707e;
+	text-align: center;
+	padding-bottom: 15px;
+}
+
+table {
+	width: 100%;
+}
+	
+table thead tr th {
+	width: 33%;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	font-weight: bolder;
+}
+
+table tbody tr td {
+	padding-bottom: 10px;
+	font-size: 80%;
+}
+
+table tbody tr td a:link, 
+table tbody tr td a:visited {
+	color: #63707e;
+	padding: 0% 5px;
+}
+
+.contact {
+	text-align: left;
+	padding-left: 10%;
+}
