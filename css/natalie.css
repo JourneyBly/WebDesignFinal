@@ -83,17 +83,16 @@ main{
 #meetnatalie {
 	display: inline-block;
 	vertical-align: top;
-	width: 40%;
-	margin: 5% 5%;
+	width: 30%;
+	margin: 5%;
 	text-align: center;
 	color: #63707e;
-
 }
 
 #meetnatalie h1 {
 	font-family: 'Sacramento', cursive;
 	font-size: 300%;
-	margin-top: 10%;
+	margin-top: 20%;
 }
 
 #meetnatalie p {
@@ -102,11 +101,11 @@ main{
 	margin-top: 2%;
 }
 
-#homepicdiv {
+#homepics {
 	text-align: center;
 }
 
-.homepics {
+#homepics img {
 	width: 25%;
 	padding: 30px;
 	height: 207px;
