@@ -37,7 +37,6 @@ nav {
 	width: 100%;
 	float: left;
 	border-top: solid 2px #ffffff;
-    border-bottom: solid 2px #ffffff;
     font-family: 'Crushed', cursive;
 	letter-spacing: 5px;
 	}
@@ -61,12 +60,15 @@ nav a:hover {
 nav #current {
 	background: #ffffff;
 	color: #e5ad77;
+	border-top: solid 2px #e5ad77;
+	border-bottom: solid 2px #e5ad77;
+	height: 46px;
 }
 
-/* ---------------------- MAIN ----------------------------------- */
+/* ---------------------- MAIN HOME ----------------------------------- */
 
 main{
-	margin-top: 54px;
+	margin-top: 52px;
 }
 
 #intro {
@@ -121,6 +123,8 @@ main{
 	height: 207px;
 }
 
+/* ---------------------- MAIN ABOUT ----------------------------------- */
+
 #about {
 	width: 50%;
 	margin-left: 25%;
@@ -132,7 +136,7 @@ main{
 	font-family: 'Sacramento', cursive;
 	font-size: 300%;
 	color: #ca8866;
-	margin-top: 15%;
+	margin-top: 20%;
 	text-align: center;
 }
 
@@ -140,6 +144,7 @@ main{
 	font-family: 'Montserrat', sans-serif;
 	line-height: 1.5;
 	color: #63707e;
+	margin-bottom: 5%;
 }
 
 #aboutpic img {
@@ -148,15 +153,50 @@ main{
 	margin-left: 20%;
 }
 
+main hr {
+	width: 80%;
+	text-align: center;
+	border: 1px solid #ca8866;
+	margin-top: 5%;
+}
+
 #about2 h1 {
 	font-family: 'Sacramento', cursive;
 	font-size: 300%;
 	color: #ca8866;
 	margin-top: 5%;
 	text-align: center;
+	padding: 30px;
+}
+
+#about2 h2 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 150%;
+	font-weight: bold;
+	color: #ca8866;
+	margin-left: 10%;
+	margin-top: 2%;
 }
 
 #about2 p {
+	font-family: 'Montserrat', sans-serif;
+	color: #63707e;
+	width: 80%;
+	margin-left: 10%;
+	line-height: 1.5;
+	padding: 10px;
+}
+
+#about3 h1 {
+	font-family: 'Sacramento', cursive;
+	font-size: 300%;
+	color: #ca8866;
+	margin-top: 5%;
+	text-align: center;
+	padding: 30px;
+}
+
+#about3 p {
 	width: 25%;
 	height: 192px;
 	display: inline-block;
@@ -164,6 +204,10 @@ main{
 	font-size: 200%;
 	text-align: center;
 	vertical-align: middle;
+}
+
+#about3 {
+	margin-bottom: 5%;
 }
 
 .destinations {
@@ -177,11 +221,11 @@ main{
 	position: absolute;
 	top: 50%;
 	left: 50%;
-	transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%); /* from w3schools.com CSS 2D transforms */
 	color: white;
 	font-family: 'Montserrat', sans-serif;
 	font-size: 200%;
-	text-shadow: 5px 5px 20px #000000;
+	text-shadow: 5px 5px 20px #000000; /* from w3schools.com CSS text-shadow property */
 }
 
 .destinations img {
@@ -193,41 +237,134 @@ main{
 	text-align: center;
 }
 
+/* ---------------------- MAIN TIPS ----------------------------------- */
+
+#tips1 {
+	background-image: url(../images/tips1.jpg);
+	height: 600px;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: bottom;
+}
+
+#tips1heading {
+	border: solid 2px #ffffff;
+	padding: 10px;
+	width: 40%;
+	margin-left: 30%;
+	margin-top: 10%;
+	position: absolute;
+}
+
+#tips1heading div h1 {
+	font-family: 'Sacramento', cursive;
+	font-size: 300%;
+	color: #ca8866;
+	text-align: center;
+	background-color: #ffffff;
+	padding: 40px;
+}
+
+#tips2 h2 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 150%;
+	font-weight: bold;
+	color: #ca8866;
+	margin-left: 10%;
+	margin-top: 2%;
+}
+
+#tips2 p {
+	font-family: 'Montserrat', sans-serif;
+	color: #63707e;
+	width: 80%;
+	margin-left: 10%;
+	line-height: 1.5;
+	padding: 10px;
+}
+
+#tipspics {
+	display: inline-block;
+	text-align: center;
+}
+
+#tipspics img {
+	width: 25%;
+	height: 540px;
+	margin-bottom: 2%;
+	padding: 50px;
+}
+
+/* ---------------------- MAIN CONTACT ----------------------------------- */
+
+#contact {
+	background-image: url(../images/contact.jpg);
+	text-align: center;
+	background-size: 100%;
+	height: 600px;
+	background-repeat: no-repeat;
+	background-position: top;
+}
+
+#contactinfo {
+	position: absolute;
+	width: 30%;
+	margin-top: 3%;
+	margin-left: 35%;
+	border: solid 4px #ffffff;
+	padding: 10px;
+}
+
+#contactinfo div {
+	background-color: #ffffff;
+	padding: 40px;
+}
+
+#contactinfo h1 {
+	font-family: 'Sacramento', cursive;
+	font-size: 300%;
+	color: #ca8866;
+	text-align: center;
+}
+
+#contactinfo p {
+	font-family: 'Montserrat', sans-serif;
+	color: #63707e;
+	line-height: 1.5;
+}
+
 /*-------------------------FOOTER--------------------------------- */
 footer {
 	width: 100%;
-	clear: both;
 	background-color: #ca8866;
 	font-family: 'Montserrat', sans-serif;
 	color: #ffffff;
-	text-align: center;
 	padding-bottom: 15px;
+	text-align: center;
 }
 
-table {
-	width: 100%;
+footer div {
+	display: inline-block;
+	padding: 20px;
+	margin-left: 5%;
+	margin-right: 5%;
 }
-	
-table thead tr th {
-	width: 33%;
-	padding-top: 20px;
-	padding-bottom: 10px;
+
+footer h1 {
 	font-weight: bolder;
+	margin-bottom: 3%;
 }
 
-table tbody tr td {
-	padding-bottom: 10px;
-	font-size: 80%;
+footer div p {
+	text-align: left;
+	padding: 2px;
 }
 
-table tbody tr td a:link, 
-table tbody tr td a:visited {
-	color: #ffffff;
-	padding: 0% 5px;
+footer p a {
 	text-decoration: none;
 }
 
-.contact {
-	text-align: left;
-	padding-left: 10%;
+footer p a:visited {
+	text-decoration: none;
+	color: #ffffff;
 }
