@@ -237,6 +237,16 @@ main hr {
 	text-align: center;
 }
 
+.destinations a {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+.destinations a:visited {
+	text-decoration: none;
+	color: #ffffff;
+}
+
 /* ---------------------- MAIN TIPS ----------------------------------- */
 
 #tips1 {
@@ -341,31 +351,45 @@ footer {
 	color: #ffffff;
 	padding-bottom: 15px;
 	text-align: center;
+	display: flex;
 }
 
 footer div {
-	display: inline-block;
-	padding: 20px;
-	margin-left: 5%;
-	margin-right: 5%;
+	text-align: center;
+	width: 100%;
+	padding: 2px;
 }
 
 footer h1 {
 	font-weight: bolder;
-	margin-bottom: 3%;
+	margin: 10px 0;
 }
 
 footer div p {
-	text-align: left;
-	padding: 2px;
+	padding: 4px;
+	text-align: center;
 }
 
 footer p a {
 	text-decoration: none;
-	color: #ffffff;
 }
 
 footer p a:visited {
 	text-decoration: none;
 	color: #ffffff;
+}
+
+.contactgroup{
+	margin-left: 25%;
+	display: flex;
+}
+
+.contactcontent{
+	width: 500px;
+	text-align: left;
+}
+
+.icons {
+	width: 25px;
+	text-align: center;
 }
